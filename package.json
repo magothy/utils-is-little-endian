@@ -1,6 +1,6 @@
 {
   "name": "utils-is-little-endian",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Check if an environment is little endian.",
   "author": {
     "name": "Athan Reines",
@@ -12,9 +12,6 @@
       "email": "kgryte@gmail.com"
     }
   ],
-  "bin": {
-    "is-le": "./bin/cli"
-  },
   "scripts": {
     "test": "if [ \"${TRAVIS}\" ]; then npm run test-ci; else npm run test-local; fi",
     "test-local": "tape \"./test/*.js\" | tap-spec",
@@ -39,7 +36,6 @@
     "endian",
     "big",
     "is",
-    "cli",
     "byte order",
     "check"
   ],
@@ -47,9 +43,6 @@
     "url": "https://github.com/kgryte/utils-is-little-endian/issues"
   },
   "dependencies": {
-    "minimist": "^1.2.0",
-    "pkginfo": "^0.3.1",
-    "update-notifier": "^0.6.0"
   },
   "devDependencies": {
     "browserify": "12.x.x",
