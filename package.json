@@ -1,5 +1,5 @@
 {
-  "name": "utils-is-little-endian",
+  "name": "utils-is-little-endian-no-cli",
   "version": "1.1.0",
   "description": "Check if an environment is little endian.",
   "author": {
